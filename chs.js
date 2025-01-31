@@ -61,6 +61,8 @@ var cnItems = {
 	'Import from Text Box':'从文本框导入',
 	'Upload File':'上传存档文件',
 	'Import this save?':'导入此存档？',
+	'Copied':'已复制',
+	'Save data copied to clipboard.':'存档数据已复制到剪贴板',
 	'Would you like to import this save? Your current game will be overridden!':'您确定要导入此存档吗？当前游戏进度将被覆盖！',
 	'Time played:':'游玩时间：',
 	'Cards drawn:':'已抽取卡牌：',
@@ -105,6 +107,10 @@ var cnItems = {
 	'draws':'抽卡次数',
 	'Points':'点数',
 	'Cards':'卡牌',
+	'Shreds':'碎片',
+	'Continue':'继续',
+	'“Remains of excess cards, reduced to atoms. These cards almost have no trade value (except for the few':'多余卡牌的残骸，被分解至原子级。这些卡牌几乎没有交易价值（除了部分',
+	'cards), so people are inventing new ways to use them, such as shredding them to use as a new upgrade currency“':'卡牌）因此人们正在发明新的用途，比如将其粉碎后作为新的升级货币',
 	'Bulk Energy':'大宗能量',
 	'“Used as Omega Cards\' loyalty program currency to allow you to trade multiple cards at once“':'“用作《Omega Cards》忠诚计划的货币，允许你一次性交换多张卡牌”',
 	'In cooldown':'正在冷却中',
@@ -116,6 +122,7 @@ var cnItems = {
 	'Fusion':'融合',
 	'Can\'t upgrade':'无法升级',
 	'Can\'t fuse':'无法融合',
+	'Can\'t purchase':'无法购买',
 	'stars)\n                        (level':'星)\n                        (等级',
 	'stars)\n                    (level':'星)\n                    (等级',
 	'stars)\n                        ':'星)\n                        ',
@@ -137,6 +144,7 @@ var cnItems = {
 	'Click to upgrade.':'点击升级',
 	'Insufficient copies.':'副本不足',
 	'Insufficient Points.':'点数不足',
+	'Insufficient Shreds.':'碎片不足',
 	'This card can not be fused.':'此卡无法融合',
 	'This card can not be upgraded.':'此卡无法升级',
 	
@@ -192,7 +200,7 @@ var cnItems = {
 	//剧情
 	'I ain\'t reading allat':'我才不看这些呢',
 	'Next':'下一页',
-	'The year is 2078.':'现在是2078年 （汉化 By LinLei_Baruch）',
+	'The year is 2078.':'现在是2078年丨汉化 By LinLei_Baruch',
 	'Gacha gaming has become a way of life.':'抽卡游戏已成为一种生活方式。',
 	'The thrilling experience of not knowing what items you\'ll get, the satisfying feeling when you get a rare draw, the flexibility and easiness to add gacha mechanics to every game in existence...':'不知道自己会获得什么物品的刺激体验，获得稀有卡牌时的满足感，以及将抽卡机制轻松融入任何游戏的灵活性和便利性……',
 	'People have found gacha games to be the best way to pass time, for casual players and the more competitive-minded players alike.':'人们发现抽卡游戏是打发时间的最佳方式，无论是休闲玩家还是更具竞争心态的玩家。',
@@ -230,8 +238,31 @@ var cnItems = {
 	'INCLUDED':'包含',
 	'© DUDUCAT TRADING CARD GAME CO.':'© DUDUCAT 集换式卡牌游戏公司',
 	
-	//成就
+	//信息手册
+	'Infobook':'信息手册',
+	'Statistics':'统计',
+	'General':'一般',
+	'Time played':'游玩时间',
+	'Cards drawn':'已抽取卡牌',
+	'Base bulk':'基础大宗',
+	'Bulk power':'大宗力量',
+	'Card multiplier':'卡牌倍数',
+	'appear chance':'出现机会',
+	'Base gain':'基础获得',
+	'Random gain':'随机获得',
+	'Multiplier':'倍率',
+	'Gain on draw':'抽卡获得',
+	'Crowned card multi':'加冕卡倍数',
+	'card multi':'卡倍数',
+	
+	//信息手册-画廊
+	'Gallery':'画廊',
+	'Badges':'徽章',
+	'Story':'剧情',
+	'Intro':'介绍',
 	'Badge obtained:':'获得徽章：',
+	'(obtained badge)':'（已获得徽章）',
+	'(locked badge)':'（未获得徽章）',
 	'Another Gacha Game to the Pile':'又一款抽卡游戏加入了这个堆积如山的行列',
 	
     // 过滤不需要汉化的文本
