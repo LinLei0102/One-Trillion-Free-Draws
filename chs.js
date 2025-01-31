@@ -109,14 +109,14 @@ var cnItems = {
 	'Cards':'卡牌',
 	'Shreds':'碎片',
 	'Continue':'继续',
-	'“Remains of excess cards, reduced to atoms. These cards almost have no trade value (except for the few':'多余卡牌的残骸，被分解至原子级。这些卡牌几乎没有交易价值（除了部分',
-	'cards), so people are inventing new ways to use them, such as shredding them to use as a new upgrade currency“':'卡牌）因此人们正在发明新的用途，比如将其粉碎后作为新的升级货币',
+	'“Remains of excess cards, reduced to atoms. These cards almost have no trade value (except for the few':'“多余卡牌的残骸，被分解至原子级。这些卡牌几乎没有交易价值（除了部分',
+	'cards), so people are inventing new ways to use them, such as shredding them to use as a new upgrade currency“':'卡牌）因此人们正在发明新的用途，比如将其粉碎后作为新的升级货币”',
 	'Bulk Energy':'大宗能量',
 	'“Used as Omega Cards\' loyalty program currency to allow you to trade multiple cards at once“':'“用作《Omega Cards》忠诚计划的货币，允许你一次性交换多张卡牌”',
 	'In cooldown':'正在冷却中',
 	'(you have':'(你持有',
 	'(you\'ve drawn':'(你已抽取',
-	'until cap)':'到达上限)',
+	'until cap)':'后到达上限)',
 	'efficiency)':'效率)',
 	'Upgrade':'升级',
 	'Fusion':'融合',
@@ -148,7 +148,7 @@ var cnItems = {
 	'This card can not be fused.':'此卡无法融合',
 	'This card can not be upgraded.':'此卡无法升级',
 	
-	//卡牌
+	//卡牌 - N级
 	'The Nothing Square':'虚无广场',
 	'\"The Nothing Square\" ':'\"虚无广场\" ',
 	'“That one square that is programmed to be picked 99% of the time“':'“那个被编程设定为99%时间内都会被选中的方格”',
@@ -176,12 +176,21 @@ var cnItems = {
 	'In-Game Shop':'游戏内商店',
 	'\"In-Game Shop\" ':'\"游戏内商店\" ',
 	'“Find cards that can\'t be found from drawing, and probably spend all of your money trying to out-bid the highest bidder“':'“找到无法通过抽卡获得的卡牌，并可能会花光所有的钱，试图超越最高出价者”',
-	'StackRAR':'StackRAR',
-	'“Please note that StackRAR is not a free card. After a 40 day trial period you must either buy a license or burn this card off of your collection“':'“请注意，StackRAR 不是一张免费卡。在40天的试用期后，您必须购买许可证或将此卡从您的收藏中销毁。”',
+	
+	//卡牌 - R级
+	'Epic Shredding Machine':'史诗级粉碎机',
+	'\"Epic Shredding Machine\" ':'\"史诗级粉碎机\" ',
+	'“Instead of using a small office-made shredder, why not use the giant ones made for ASMR videos on the internet?“':'“与其使用小型办公室粉碎机，为什么不使用那些专为互联网上的ASMR视频制作的巨型粉碎机呢？”',
+	
+	//卡牌 - EX级
+	'StackRAR':'堆叠压缩',
+	'“Please note that StackRAR is not a free card. After a 40 day trial period you must either buy a license or burn this card off of your collection“':'“请注意，堆叠压缩 不是一张免费卡。在40天的试用期后，您必须购买许可证或将此卡从您的收藏中销毁。”',
+	'Shredder':'碎纸机',
+	'“Act as if nothing has ever happened“':'“表现得好像什么都没发生过”',
 	
 	
 	//卡牌效果
-	'No effect.':'无效果。',
+	'No effect.':'无效果',
 	'Gain':'获得',
 	'points per draw.':'点数（每次抽卡）',
 	'Randomly gain zero to':'随机获得 0 ~',
@@ -193,6 +202,20 @@ var cnItems = {
 	'Unlock the Marketplace.':'解锁市场',
 	'Group together duplicate cards in the draw view, though the compression halves your card revealing speed in the process. Also remove the':'将重复的卡牌在抽卡界面中分组，尽管压缩过程会将卡牌展示速度减半。还会移除',
 	'bulk draw limit.':'张大宗抽卡上限',
+	'shred multiplier.':'碎片倍率',
+	'point multiplier.':'点数倍率',
+	'bulk power.':'大宗力量',
+	'bulk energy cap.':'大宗能量上限',
+	'bulk power, but':'大宗力量，但',
+	'bulk power, but':'大宗力量，但',
+	'base bulk, but':'基础大宗，但',
+	'cooldown duration.':'冷却时间',
+	'card multiplier, but':'卡牌倍率，但',
+	'cooldown duration and pack breaking duration.':'冷却时间和卡包拆封时间',
+	'Unlock the Infobook. View your stats and other things, though with a price...':'解锁信息手册。可查看你的统计数据和其他内容，但需要付出代价...',
+	'Raise the level in':'将',
+	'\'s effect by':'的效果等级提高',
+	'Duplicate cards that are useless are shredded into a new currency called Shreds, including crowned cards and cards with max stars.':'无用的重复卡牌会被粉碎成一种新的货币，叫做碎片，包括加冕卡和已满星的卡牌',
 	
 	//市场
 	'Marketplace':'市场',
@@ -246,14 +269,14 @@ var cnItems = {
 	'Cards drawn':'已抽取卡牌',
 	'Base bulk':'基础大宗',
 	'Bulk power':'大宗力量',
-	'Card multiplier':'卡牌倍数',
+	'Card multiplier':'卡牌倍率',
 	'appear chance':'出现机会',
 	'Base gain':'基础获得',
 	'Random gain':'随机获得',
 	'Multiplier':'倍率',
 	'Gain on draw':'抽卡获得',
-	'Crowned card multi':'加冕卡倍数',
-	'card multi':'卡倍数',
+	'Crowned card multi':'加冕卡倍率',
+	'card multi':'卡倍率',
 	
 	//信息手册-画廊
 	'Gallery':'画廊',
