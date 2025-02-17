@@ -113,6 +113,8 @@
     color: var(--card-color);
     background: linear-gradient(var(--card-gradient));
     border-radius: 0 0 4px 4px;
+    text-shadow: var(--shadow-0), var(--shadow-1), var(--shadow-1);
+    --rarity-filter: drop-shadow(var(--shadow-0)) drop-shadow(var(--shadow-0));
 }
 .game-card-stars {
     position: absolute;
@@ -515,6 +517,7 @@
     padding: 0;
     margin: 0 10px 0 0;
     flex: 0 0 fit-content;
+    align-items: stretch;
     overflow: hidden;
 }
 .card-filters > .choice-group > * {
