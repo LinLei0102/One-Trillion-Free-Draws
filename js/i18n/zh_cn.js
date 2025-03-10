@@ -1,3 +1,4 @@
+@type {typeof i18nDefault}
 let i18nDefault = i18nStrings.zh_cn = {
     /** Name of the language, in that language. Don't translate the word "English" to your language. */
     name: "简体中文",
